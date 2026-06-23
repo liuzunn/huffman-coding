@@ -1,0 +1,6 @@
+Information theory is a branch of applied mathematics and electrical engineering.
+It was pioneered by Claude Shannon in 1948 in his paper 'A Mathematical Theory of Communication'.
+Huffman coding is one of the most famous lossless compression algorithms.
+It assigns variable-length codes to symbols based on their probabilities.
+The most frequent symbols get the shortest codes, achieving optimal compression.
+This project implements Huffman coding for both text and image compression.

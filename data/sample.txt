@@ -1,0 +1,8 @@
+The discipline of information theory was founded by Claude Shannon
+in 1948 with his seminal paper A Mathematical Theory of Communication.
+
+Source coding removes redundancy while preserving information content.
+
+Huffman coding (David A. Huffman, 1952) produces optimal prefix codes.
+It merges lowest-frequency nodes into a binary tree structure.
+Canonical Huffman allows compact header storage using code lengths only.
