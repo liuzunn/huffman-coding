@@ -63,6 +63,20 @@ python experiments/run_image_experiments.py
 核心观察：Huffman 编码的平均码长逼近信源熵，编码效率通常在 95% 以上；
 对图像这类空间相关性强的数据，先做 DPCM 预测再编码能明显降低熵。
 
+### 结果图
+
+![压缩比对比](results/figures/fig1_compression_ratio.png)
+
+*不同语料与图像下，Huffman 编码相对定长编码的压缩比*
+
+![熵 vs 平均码长](results/figures/fig2_entropy_vs_length.png)
+
+*平均码长逼近信源熵 —— 这是 Huffman 编码最优性的直接体现，两点越贴近说明编码效率越高*
+
+![像素直方图](results/figures/fig3_pixel_histogram.png)
+
+*灰度图像素分布。分布越集中，熵越低，可压缩空间越大*
+
 ## 许可
 
 [MIT](./LICENSE) © 2025 liuzunn
